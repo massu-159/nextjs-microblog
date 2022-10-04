@@ -53,7 +53,7 @@ const Home: NextPage = ({ allPostsData }:any) => {
             {allPostsData.map(({ id, title, date, thumbnail }:PostData) => (
             <article key={id}>
                 <Link href={ `/posts/${id}` }>
-                  <Image src={ `${thumbnail}` } alt="" className={styles.thumbnailImage} />
+                  <img src={ `${thumbnail}` } alt="" className={styles.thumbnailImage} />
               </Link>
               <Link href={ `/posts/${id}` }>
                   <a className={utilStyle.boldText}>{ title }</a>

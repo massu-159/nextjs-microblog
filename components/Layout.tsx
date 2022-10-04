@@ -18,12 +18,12 @@ function Layout({ children, home }:any) {
       <header className={ styles.header }>
         {home ? (
           <>
-            <Image src="/images/anshita-nair-0rxLLHD1XxA-unsplash.jpg" alt="" className={`${utilStyles.borderCircle} ${styles.headerHomeImage}`} />
+            <img src="/images/anshita-nair-0rxLLHD1XxA-unsplash.jpg" alt="" className={`${utilStyles.borderCircle} ${styles.headerHomeImage}`} />
             <h1 className={ utilStyles.heading2Xl }>{ name }</h1>
           </>
         ) : (
           <>
-            <Image src="/images/anshita-nair-0rxLLHD1XxA-unsplash.jpg" alt="" className={ `${utilStyles.borderCircle} ${styles.headerImage}` } />
+            <img src="/images/anshita-nair-0rxLLHD1XxA-unsplash.jpg" alt="" className={ `${utilStyles.borderCircle} ${styles.headerImage}` } />
             <h1 className={ utilStyles.heading2Xl }>{ name }</h1>
           </>
         )}
